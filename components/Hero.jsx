@@ -27,16 +27,16 @@ const Hero = () => {
       {/* Main Content */}
 
       <motion.div
-        initial={{opacity:0,y:40}}
-        animate={{opacity:1,y:0}}
-        transition={{duration:1}}
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
         className="z-10"
       >
 
         <motion.h1
-          initial={{opacity:0,scale:0.8}}
-          animate={{opacity:1,scale:1}}
-          transition={{duration:1}}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1 }}
           className="text-5xl md:text-8xl font-extrabold mb-6 leading-tight"
         >
 
@@ -68,7 +68,7 @@ const Hero = () => {
 
         <p className="max-w-3xl text-gray-400 text-base md:text-xl leading-9 mx-auto">
 
-          Passionate BSCS student focused on building modern, responsive and high-performance web applications using React.js, Next.js, Node.js and MongoDB.
+         Building full stack web applications with Next.js, React, Node.js and MongoDB. Passionate about creating modern user experiences, scalable backend systems and cloud-deployed solutions.
 
         </p>
 
@@ -94,6 +94,39 @@ const Hero = () => {
             Contact Me
 
           </a>
+
+        </div>
+        <div className="grid grid-cols-3 gap-8 mt-12 max-w-lg mx-auto">
+
+          <div>
+            <h3 className="text-3xl font-bold text-purple-400">
+              6+
+            </h3>
+
+            <p className="text-gray-400">
+              Projects
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-3xl font-bold text-blue-400">
+              10+
+            </h3>
+
+            <p className="text-gray-400">
+              Technologies
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-3xl font-bold text-pink-400">
+              2+
+            </h3>
+
+            <p className="text-gray-400">
+              Years Learning
+            </p>
+          </div>
 
         </div>
 

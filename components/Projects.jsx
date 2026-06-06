@@ -11,6 +11,42 @@ import {
 } from "react-icons/fi"
 
 const projects = [
+{
+  title: "Shinova Detailing Management System",
+
+  description:
+    "Full Stack car detailing management system built with Next.js, MongoDB Atlas and Tailwind CSS featuring online appointment booking, admin dashboard, booking status tracking, revenue analytics and cloud deployment.",
+
+  live:
+    "https://shinova-detailing.vercel.app/",
+
+  github:
+    "https://github.com/HafizAbdulMuizz/shinova-detailing",
+},
+{
+    title: "Spotify Clone",
+
+    description:
+      "Spotify-inspired music web application built using HTML, CSS, JavaScript and Node.js with dynamic functionality.",
+
+    live:
+      "https://uniquespotify.netlify.app/",
+
+    github:
+      "https://github.com/HafizAbdulMuizz/project-2-spotify-clone-using-html-css-js",
+  },
+   {
+    title: "Todo Application",
+
+    description:
+      "Full stack Todo application built using React.js, Express.js and Tailwind CSS with CRUD functionality.",
+
+    live:
+      "https://uniquetoodolist.netlify.app/",
+
+    github:
+      "https://github.com/HafizAbdulMuizz/react-todo-list",
+  },
 
   {
     title: "Netflix Clone",
@@ -25,19 +61,7 @@ const projects = [
       "https://github.com/HafizAbdulMuizz/project-1-netflix-colon-using-html-and-css",
   },
 
-  {
-    title: "Spotify Clone",
-
-    description:
-      "Spotify-inspired music web application built using HTML, CSS, JavaScript and Node.js with dynamic functionality.",
-
-    live:
-      "https://uniquespotify.netlify.app/",
-
-    github:
-      "https://github.com/HafizAbdulMuizz/project-2-spotify-clone-using-html-css-js",
-  },
-
+  
   {
     title: "Twitter Clone",
 
@@ -51,18 +75,7 @@ const projects = [
       "https://github.com/HafizAbdulMuizz/project-3-twitter-clone-using-tailwindcss",
   },
 
-  {
-    title: "Todo Application",
-
-    description:
-      "Full stack Todo application built using React.js, Express.js and Tailwind CSS with CRUD functionality.",
-
-    live:
-      "https://uniquetoodolist.netlify.app/",
-
-    github:
-      "https://github.com/HafizAbdulMuizz/react-todo-list",
-  },
+ 
 
 ]
 
@@ -83,9 +96,14 @@ const Projects = () => {
         className="text-3xl md:text-5xl font-bold text-center mb-16"
       >
 
-        Projects
+       Featured Projects
 
       </motion.h1>
+      <p className="text-center text-gray-400 max-w-2xl mx-auto mb-16">
+  A collection of real-world projects showcasing my skills in
+  frontend development, full stack applications, databases,
+  cloud deployment and modern web technologies.
+</p>
 
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
 
