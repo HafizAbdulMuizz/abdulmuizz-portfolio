@@ -11,19 +11,21 @@ import {
 } from "react-icons/fi"
 
 const projects = [
-{
-  title: "Shinova Detailing Management System",
+  {
+    title: "Shinova Detailing Management System",
 
-  description:
-    "Full Stack car detailing management system built with Next.js, MongoDB Atlas and Tailwind CSS featuring online appointment booking, admin dashboard, booking status tracking, revenue analytics and cloud deployment.",
+    featured: true,
 
-  live:
-    "https://shinova-detailing.vercel.app/",
+    description:
+      "Full Stack car detailing management system built with Next.js, MongoDB Atlas and Tailwind CSS featuring online appointment booking, admin dashboard, booking status tracking, revenue analytics and cloud deployment.",
 
-  github:
-    "https://github.com/HafizAbdulMuizz/shinova-detailing",
-},
-{
+    live:
+      "https://shinova-detailing.vercel.app/",
+
+    github:
+      "https://github.com/HafizAbdulMuizz/shinova-detailing",
+  },
+  {
     title: "Spotify Clone",
 
     description:
@@ -35,7 +37,7 @@ const projects = [
     github:
       "https://github.com/HafizAbdulMuizz/project-2-spotify-clone-using-html-css-js",
   },
-   {
+  {
     title: "Todo Application",
 
     description:
@@ -61,7 +63,7 @@ const projects = [
       "https://github.com/HafizAbdulMuizz/project-1-netflix-colon-using-html-and-css",
   },
 
-  
+
   {
     title: "Twitter Clone",
 
@@ -75,7 +77,7 @@ const projects = [
       "https://github.com/HafizAbdulMuizz/project-3-twitter-clone-using-tailwindcss",
   },
 
- 
+
 
 ]
 
@@ -89,36 +91,41 @@ const Projects = () => {
     >
 
       <motion.h1
-        initial={{opacity:0,y:40}}
-        whileInView={{opacity:1,y:0}}
-        transition={{duration:1}}
-        viewport={{once:true}}
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
         className="text-3xl md:text-5xl font-bold text-center mb-16"
       >
 
-       Featured Projects
+        Featured Projects
 
       </motion.h1>
       <p className="text-center text-gray-400 max-w-2xl mx-auto mb-16">
-  A collection of real-world projects showcasing my skills in
-  frontend development, full stack applications, databases,
-  cloud deployment and modern web technologies.
-</p>
+        A collection of real-world projects showcasing my skills in
+        frontend development, full stack applications, databases,
+        cloud deployment and modern web technologies.
+      </p>
 
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
 
-        {projects.map((project,index)=>(
+        {projects.map((project, index) => (
 
           <motion.div
             key={index}
 
-            initial={{opacity:0,y:40}}
-            whileInView={{opacity:1,y:0}}
-            transition={{duration:0.6,delay:index*0.2}}
-            viewport={{once:true}}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: index * 0.2 }}
+            viewport={{ once: true }}
 
             className="bg-gradient-to-br from-zinc-900 to-zinc-800 border border-zinc-800 rounded-3xl p-8 hover:-translate-y-3 hover:shadow-2xl hover:shadow-purple-500/20 duration-500"
           >
+            {project.featured && (
+              <span className="inline-block mb-4 px-4 py-1 rounded-full bg-yellow-500 text-black text-sm font-bold">
+                ⭐ Featured Project
+              </span>
+            )}
 
             <h2 className="text-3xl font-bold mb-5">
 
