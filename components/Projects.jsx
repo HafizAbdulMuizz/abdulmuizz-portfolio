@@ -12,6 +12,20 @@ import {
 
 const projects = [
   {
+    title: "SAS Online Quran Academy",
+
+    featured: true,
+
+    description:
+      "Real client full stack Quran Academy platform built with Next.js, MongoDB Atlas and Tailwind CSS featuring online admissions, admin authentication, admission management dashboard, CSV export, student filtering and cloud deployment.",
+
+    live:
+      "https://sas-quran-academy.vercel.app",
+
+    github:
+      "https://github.com/HafizAbdulMuizz/sas-quran-academy",
+  },
+  {
     title: "Shinova Detailing Management System",
 
     featured: true,
@@ -102,9 +116,7 @@ const Projects = () => {
 
       </motion.h1>
       <p className="text-center text-gray-400 max-w-2xl mx-auto mb-16">
-        A collection of real-world projects showcasing my skills in
-        frontend development, full stack applications, databases,
-        cloud deployment and modern web technologies.
+        A collection of full stack and frontend projects including real client work, management systems, cloud-deployed applications and responsive web experiences.
       </p>
 
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">

@@ -100,7 +100,7 @@ const Hero = () => {
 
           <div>
             <h3 className="text-3xl font-bold text-purple-400">
-              6+
+           7+
             </h3>
 
             <p className="text-gray-400">
@@ -110,7 +110,7 @@ const Hero = () => {
 
           <div>
             <h3 className="text-3xl font-bold text-blue-400">
-              10+
+              15+
             </h3>
 
             <p className="text-gray-400">
@@ -120,7 +120,7 @@ const Hero = () => {
 
           <div>
             <h3 className="text-3xl font-bold text-pink-400">
-              2+
+              3+
             </h3>
 
             <p className="text-gray-400">

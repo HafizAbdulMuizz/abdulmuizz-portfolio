@@ -4,18 +4,24 @@ import { motion } from "framer-motion"
 
 const Skills = () => {
 
-  const skills = [
-    "HTML",
-    "CSS",
-    "Tailwind CSS",
-    "JavaScript",
-    "React.js",
-    "Next.js",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "Git & GitHub"
-  ]
+ const skills = [
+  "HTML",
+  "CSS",
+  "Tailwind CSS",
+  "JavaScript",
+  "React.js",
+  "Next.js",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "Mongoose",
+  "MySQL",
+  "REST APIs",
+  "Git",
+  "GitHub",
+  "Vercel",
+  "Postman"
+]
 
   return (
 
