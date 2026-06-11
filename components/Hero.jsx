@@ -77,7 +77,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row gap-5 justify-center mt-12">
 
           <a
-            href="/cv 1.pdf"
+            href="/cv 3.pdf"
             download
             className="bg-gradient-to-r from-purple-500 to-blue-500 px-8 py-4 rounded-2xl font-semibold hover:scale-110 duration-300 shadow-lg shadow-purple-500/30"
           >
