@@ -68,7 +68,7 @@ const Hero = () => {
 
         <p className="max-w-3xl text-gray-400 text-base md:text-xl leading-9 mx-auto">
 
-         Building full stack web applications with Next.js, React, Node.js and MongoDB. Passionate about creating modern user experiences, scalable backend systems and cloud-deployed solutions.
+        Full Stack Developer specializing in Next.js, React.js, Node.js and MongoDB. Experienced in building production-ready SaaS platforms, management systems, service marketplaces, authentication systems and cloud-deployed web applications. Currently pursuing BSCS while working on real-world software engineering projects.
 
         </p>
 
@@ -77,7 +77,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row gap-5 justify-center mt-12">
 
           <a
-            href="/cv 3.pdf"
+            href="/cv 4.pdf"
             download
             className="bg-gradient-to-r from-purple-500 to-blue-500 px-8 py-4 rounded-2xl font-semibold hover:scale-110 duration-300 shadow-lg shadow-purple-500/30"
           >
@@ -100,7 +100,7 @@ const Hero = () => {
 
           <div>
             <h3 className="text-3xl font-bold text-purple-400">
-           7+
+           10+
             </h3>
 
             <p className="text-gray-400">
@@ -110,11 +110,19 @@ const Hero = () => {
 
           <div>
             <h3 className="text-3xl font-bold text-blue-400">
-              15+
+              20+
             </h3>
 
             <p className="text-gray-400">
               Technologies
+            </p>
+             <div>
+            <h3 className="text-3xl font-bold text-blue-400">
+              1+
+            </h3>
+
+            <p className="text-gray-400">
+              Internship
             </p>
           </div>
 

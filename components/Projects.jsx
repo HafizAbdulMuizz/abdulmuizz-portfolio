@@ -12,6 +12,20 @@ import {
 
 const projects = [
   {
+  title: "TEYZIX Service Marketplace",
+
+  featured: true,
+
+  description:
+    "Full Stack Fiverr-style marketplace platform developed during TEYZIX CORE Internship. Features JWT Authentication, Role-Based Access Control, Service Listings, Service Requests, Provider Profiles, Project Tracking Workflow, Reviews & Ratings, Cloudinary Integration, Admin Dashboard and Responsive Design.",
+
+  live:
+    "https://teyzix-service-marketplace-mqhx.vercel.app/",
+
+  github:
+    "https://github.com/HafizAbdulMuizz/teyzix-service-marketplace",
+},
+  {
     title: "SAS Online Quran Academy",
 
     featured: true,

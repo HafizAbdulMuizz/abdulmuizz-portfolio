@@ -17,10 +17,15 @@ const Skills = () => {
   "Mongoose",
   "MySQL",
   "REST APIs",
+  "JWT Authentication",
+  "Role Based Access",
+  "Cloudinary",
   "Git",
   "GitHub",
   "Vercel",
-  "Postman"
+  "Postman",
+  "Software Engineering",
+  "Responsive UI/UX"
 ]
 
   return (

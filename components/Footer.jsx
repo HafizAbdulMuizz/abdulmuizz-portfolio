@@ -62,8 +62,7 @@ const Footer = () => {
 
         <p className="text-gray-500 text-sm">
 
-          © 2026 Hafiz Abdul Muizz. All Rights Reserved.
-
+© 2026 Hafiz Abdul Muizz | Full Stack Developer
         </p>
 
       </div>

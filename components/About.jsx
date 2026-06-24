@@ -16,14 +16,15 @@ const About = () => {
 
         <p className="text-gray-400 text-base md:text-lg leading-8">
 
-          I am Hafiz Abdul Muizz, a BSCS student and Full Stack Web Developer passionate about building modern web applications.
+         I am Hafiz Abdul Muizz, a BSCS student at The University of Lahore and a Full Stack Web Developer focused on building scalable web applications.
 
-          I have experience developing real-world full stack solutions using Next.js, React.js, Node.js, Express.js, MongoDB Atlas and MySQL.
+My expertise includes Next.js, React.js, Node.js, Express.js, MongoDB Atlas, MySQL and modern frontend technologies.
 
-          My recent work includes building production-ready management systems, admin dashboards, authentication systems, database integrations and cloud-deployed applications.
+I have successfully developed multiple production-ready systems including service marketplaces, management systems, admission platforms, authentication systems and admin dashboards.
 
-          Currently, I am focused on strengthening my software engineering fundamentals, data structures & algorithms, backend development and scalable web architecture.
+Recently, I completed a Full Stack Development Internship at TEYZIX CORE where I developed a complete Service Marketplace Platform featuring JWT Authentication, Role-Based Access Control, Service Listings, Project Tracking, Reviews & Ratings, Cloudinary Integration and Responsive UI/UX.
 
+I am passionate about software engineering, backend architecture, database design and building impactful digital products.
         </p>
 
       </div>
