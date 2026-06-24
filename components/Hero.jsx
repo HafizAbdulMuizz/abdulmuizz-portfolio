@@ -116,6 +116,7 @@ const Hero = () => {
             <p className="text-gray-400">
               Technologies
             </p>
+            </div>
              <div>
             <h3 className="text-3xl font-bold text-blue-400">
               1+
